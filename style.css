@@ -1,0 +1,125 @@
+.imagem {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: 0;
+}
+
+.slide {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
+
+.expandida {
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+
+}
+
+@font-face {
+    font-family: 'Dirty Stains';
+    src: url(fontes/DirtyStainsRegular.ttf);
+    format: ('truetype');
+}
+
+@font-face {
+    font-family: 'Type';
+    src: url(fontes/The\ Typewriter\ Hell.otf);
+    format: ('truetype')
+}
+
+@font-face {
+    font-family: 'Schizoid';
+    src: url(fontes/Schizoid\ Personality.otf);
+}
+
+h1 {
+    font-family: 'Dirty Stains';
+    font-size: 50px;
+    padding: 1%;
+    color: white;
+    margin-top: -1%;
+    margin-bottom: -1%;
+}
+
+h2 {
+    font-family: 'Schizoid';
+    line-height: 0.9;
+    font-size: 60px;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    text-shadow:
+        -1px -1px 0 red,
+        1px -1px 0 red,
+        -1px 1px 0 red,
+        1px 1px 0 red;
+}
+
+p {
+    font-family: 'Type';
+    font-size: 35px;
+    padding: 0%;
+    text-align: left;
+    max-width: 900px;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+ul {
+    font-family: 'Type';
+    font-size: 30px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    padding: auto;
+}
+
+.fotoperfil {
+    width: 350px;
+    align-items: center;
+    margin-top: 0%;
+    margin-right: -2%;
+}
+
+.texto {
+    display: flex;
+    margin-top: 1%;
+    margin-left: -1%;
+    flex-direction: column;
+}
+
+.descricao {
+    margin-top: 0px;
+    margin-left: 35px;
+    max-width: 823px;
+}
+
+.patches {
+    display: flex;
+    align-items: center;
+}
+
+.imagi {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.grande {
+    font-size: 80px;
+}
+
+.estousemtempo {
+    padding: 1%;
+}
